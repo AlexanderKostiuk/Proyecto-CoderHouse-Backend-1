@@ -1,0 +1,22 @@
+[
+    {
+        "id": "5d18163d-2a9d-41b4-8466-29ab272154b5",
+        "title": "producto de prueba 1",
+        "description": "probando con postman1",
+        "price": 500,
+        "thumbnail": "none",
+        "code": "123",
+        "status": false,
+        "category": "prueba"
+    },
+    {
+        "id": "7d4ac132-fbc8-4e4b-8883-14fbed304655",
+        "title": "producto de prueba 2",
+        "description": "probando con postman2",
+        "price": 500,
+        "thumbnail": "none",
+        "code": "1234",
+        "status": false,
+        "category": "prueba 2"
+    }
+]
