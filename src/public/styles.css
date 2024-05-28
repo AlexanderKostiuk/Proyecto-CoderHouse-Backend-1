@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    /*     font-weight: 100; */
+    font-family: monospace;
+}
+
+body {
+    background-color: #1c1c1c;
+}
+
+/* EMPIEZO PERSONALIZACION NAVBAR */
+.ulnav {
+    padding: 3rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+/*     border-top: 1px solid orangered; */
+    border-bottom: 1px solid blue;
+}
+
+.ulnav a {
+    font-size: large;
+    color: white;
+}
+
+.ulnav a:hover {
+    color: blue;
+}
+/* TERMINO PERSONALIZACION NAVBAR */
+
+/* EMPIEZO PERSONALIZACION VISTA HOME */
+.home {
+    color: white;
+}
+
+.container {
+/*     background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+/*     justify-content: center; */
+}
+
+label {
+    font-size: larger;
+}
+
+
+#limit {
+    font-size:large;
+    text-align: center;
+    width: 6rem;
+    height: 2rem;
+    border: none;
+}
+
+.container button {
+    font-size: large;
+    background-color: rgb(255, 255, 255);
+    width: 8rem;
+    height: 2.25rem;
+    border-radius: 3rem;
+    border: none;
+}
+
+.container button:hover {
+    cursor: pointer;
+    opacity: 50%;
+    transition: .2s all;
+
+}
+
+.card-container {
+/*     background-color: rgb(19, 18, 18); */
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: .5rem;
+}
+
+.card {
+    border: 1px solid blue;
+    border-radius: 1rem;
+    background-color: #1c1c1c;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3rem;
+    place-content: center;
+    box-shadow: 1px 1px 15px 1px blue;
+}
+
+.card p {
+    font-size: large;
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+/* EMPIEZO PERSONALIZACION DE REALTIME PRODUCTS */
+
+.delete-btn {
+    font-size: large;
+    background-color: rgb(255, 255, 255);
+    width: 8rem;
+    height: 2.25rem;
+    border-radius: 3rem;
+    border: none;
+}
+
+.delete-btn:hover {
+    cursor: pointer;
+    opacity: 50%;
+    transition: .2s all;
+
+}
+
+.rtproducts {
+    color: white;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.prodForm {
+    border: 1px solid blue;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 15px 1px blue;
+    padding: 2rem;
+    text-align: center;
+}
+
+.prodForm h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid white;
+}
+
+.form-group {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form-group input {
+    background-color: #1c1c1c;
+    border: 1px solid white;
+/*     height: 3rem; */
+    padding: 1rem;
+    color: white;
+    font-size: large;
+
+}
+
+.prodForm button {
+    font-size: large;
+    background-color: rgb(255, 255, 255);
+    width: 9rem;
+    height: 2.5rem;
+    border-radius: 3rem;
+    border: none;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.prodForm button:hover {
+    cursor: pointer;
+    opacity: 50%;
+    transition: .2s all;
+
+}

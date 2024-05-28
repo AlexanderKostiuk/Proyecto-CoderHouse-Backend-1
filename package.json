@@ -3,15 +3,18 @@
   "name": "proyecto-coderhouse-backend1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "sever.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "AlexKostiuk",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
     "nodemon": "^3.1.0",
+    "socket.io": "^4.7.5",
+    "sweetalert2": "^11.11.0",
     "uuid": "^9.0.1"
   }
 }

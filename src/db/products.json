@@ -1,0 +1,52 @@
+[
+	{
+		"id": "f1235a55-55e6-432e-91ee-a079ee8a86aa",
+		"status": true,
+		"title": "motorola moto g7",
+		"description": "Celular",
+		"category": "electronicos",
+		"code": "12345",
+		"price": 120000,
+		"stock": 25
+	},
+	{
+		"id": "5ad95dcf-1aaf-4058-913c-ef4002b5d306",
+		"status": true,
+		"title": "Iphone 15",
+		"description": "Celular",
+		"category": "electronicos",
+		"code": "IPHN15",
+		"price": 2000,
+		"stock": 25
+	},
+	{
+		"id": "a07ffeb3-0832-4041-b957-f9f7e62ec3c9",
+		"status": true,
+		"title": "Realme gt master edition",
+		"description": "Celular",
+		"category": "electronicos",
+		"code": "RMME",
+		"price": 150000,
+		"stock": 50
+	},
+	{
+		"id": "4eb8bd2b-98e6-49d7-8cf3-82a937855c84",
+		"status": true,
+		"title": "Xiaomi 37",
+		"description": "Celular",
+		"category": "electronicos",
+		"code": "XIA37",
+		"price": 30000,
+		"stock": 30
+	},
+	{
+		"id": "abd4d5f2-57b1-4de5-a86d-d70c34e40440",
+		"status": true,
+		"title": "samsung",
+		"description": "Galaxy s23",
+		"category": "electronicos",
+		"code": "SMSNG23",
+		"price": 450000,
+		"stock": 25
+	}
+]
